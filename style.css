@@ -1,71 +1,53 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding:0;
-    box-sizing: border;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #4f4f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px 40px;
     text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 1rem;
+    margin-right: 20px;
 }
 
 nav ul li a {
- color:;
-    text-decoration:;
-}
-
-main {
-    padding: 2rem;
-}
-
-.service-grid {
- display: grid;
-    grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
-    gap: 20px}
-
-.service-item {
-    background-color: #eaeaea;
-    padding: .5rem;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #4a460;
-    color: white;
-    padding: 10px 15px;
+    color:61dafb;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
-    background-color: #333;
+button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }
 
 footer {
-    background-color #333;
-    color: white;
+    background-color: #20232a;
+    color: #fff;
     text-align: center;
-    padding: 1rem;
-}
+    padding: 20px 40px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    }
