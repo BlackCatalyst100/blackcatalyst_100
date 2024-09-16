@@ -1,4 +1,7 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Thank you for reaching out!');
+document.addEventListenerDOMContentLoaded', () => {
+    const contactForm = document.getElementById('contact-form');
+    contactForm.addEventListener('submit', (event) => {
+        event.prevent(); // Prevent form submission
+        alert('Thank you for reaching out! We will get back to you soon!');
+    });
 });
